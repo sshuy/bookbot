@@ -7,9 +7,9 @@ def main():
     print(f"{words} words were found in the book!")
 
     letters_in_novel = count_letters(file_contents)
-    list_data = convert_dict_to_list(letters_in_novel)
-    list_data.sort(reverse=True, key=sort_it)
-    for data in list_data:
+    sorted_letters = convert_dict_to_list(letters_in_novel)
+    sorted_letters.sort(reverse=True, key=sort_it)
+    for data in sorted_letters:
         print(f"The '{data['letter']}' character was found {data['num']} times")
     print("--- End Report ---")
 
@@ -57,7 +57,5 @@ def count_letters_v2(text):
             chars[lowered] = 1
     return chars
 
-main()
-
-
-
+if __name__ == "__main__":
+    main()
