@@ -1,4 +1,7 @@
 # bookbot
 Collects information on books and displays that information back to the user of the application.
 
-We are using Frankenstein as the test novel.
+Currently we have tested this bookbot on three texts.
+- Frankenstein (Novel)
+- Noises Off (Stage Play)
+- Testbook (A local file that was used during testing)
