@@ -5,3 +5,5 @@ Currently we have tested this bookbot on three texts.
 - Frankenstein (Novel)
 - Noises Off (Stage Play)
 - Testbook (A local file that was used during testing)
+
+Swapped over to Arch Linux. Need to grab the novels again and perform testing on the new OS.
